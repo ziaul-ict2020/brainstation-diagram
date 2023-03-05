@@ -12,12 +12,18 @@ Overall, this solution provides a highly available, scalable, and fault-tolerant
 
 System Requirement:
 ====================
-1. Kubernets Cluster: 3 master and 6 worker node with high configuration
+1. Kubernets Cluster: 3 master and 6 worker node with high configuration resources
+
         a. Istio: For Service Mesh
+
         b. Kiali: Monitoring Intra-Traffic in Cluster
+
         c. Kubernets Dashboard: Graphically Cluster Manage
+
         d. FluxCD: For GitOps
+
         e. kube-Seal: Manage kubernet Secret
+
 2. Observability: Prometheus and Grafana for monitoring and visualization.
 3. Log Analyzing: EFK or ELK Stack with High availability
 4. Database: SQL, NoSQL, 
